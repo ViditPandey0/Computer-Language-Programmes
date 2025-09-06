@@ -1,0 +1,5 @@
+sent=eval(input("Enter sentence : "))
+sent=sent.split()
+words=reversed(sent)
+words =" ".join(words)
+print(words)

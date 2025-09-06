@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "SPARSEmATRIX.C": "cpp",
+        "MatrixMultiplication.C": "cpp",
+        "wordReversalInString.C": "cpp",
+        "UppercaseTheFirstLetter.C": "cpp",
+        "1D_array_rotation.C": "cpp",
+        "2D_array_rotation.C": "cpp",
+        "FibonacciiSeries.C": "cpp",
+        "FibonacciiSeriesusingWhileLoop.C": "cpp",
+        "SpecialChar.C": "cpp",
+        "IsStrLwrUprSpecialChar.C": "cpp",
+        "IsStringPalindrome.C": "cpp",
+        "MaxSizeHelicopter.C": "cpp"
+    }
+}

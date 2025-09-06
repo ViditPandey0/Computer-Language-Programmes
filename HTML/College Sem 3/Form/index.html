@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>My first form</h1>
+        <form action="index1.html" method="get">
+            <fieldset> <!-- Gives border to the form. -->
+                <legend>My first form</legend>
+
+                <label for="Name">Name - </label><br>
+                <input type="text" id="Name" required/><br><br><!--This will make it compulsory to fill this field-->
+
+                <label for="branch">Branch - </label><br>
+                <input type="text" id="branch"/><br><br>
+
+                <label for="number">Number -</label><br> <!--for and id are connected.-->
+                <input type="number" id="number"/><br><br>
+
+                <label for="date">Select a date - </label>
+                <input type="date" id="date"><br><br>
+
+                <label for="file">Choose a file - </label><br>
+                <input type="file" id="file"><br><br>
+                
+                <label for="password">Enter your password -</label>
+                <input type="password" id="password" required><br><br>
+
+                <label for="">Select your gender-</label><br>
+                <input type="radio" name="gender" value="male"/>Male<br>
+                <input type="radio" name="gender" value="female"/>Female<br><br>
+
+                Which of the following is used to create a hyperlink in HTML?
+                <input type="radio" name="Question">img tag
+                <input type="radio" name="Question">a tag
+                <input type="radio" name="Question">p tag
+                <input type="radio" name="Question">link tag <br><br>
+
+                <label for="state">Select your state</label><br>
+                <select name="state" id="state">
+                    <option value="" selected disabled>Choose a state</option>
+                    <option value="U.P.">U.P.</option>
+                    <option value="M.P.">M.P.</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Gujarat">Gujarat</option>
+                </select><br><br>
+
+                <label for="">Select your hobbies-</label>
+                <input type="checkbox" name="hobbies" value="reading">Reading
+                <input type="checkbox" name="hobbies" value="singing">Singing
+                <input type="checkbox" name="hobbies" value="dancing">Dancing
+                <input type="checkbox" name="hobbies" value="gaming">Gaming
+                <input type="checkbox" name="hobbies" value="cooking">Cooking<br><br>
+
+                <label for="email">Enter email - </label><br>
+                <input type="email" id="email"><br><br>
+
+                <input type="submit" value="Registration"/>
+            </fieldset>
+        </form>
+    </body>
+</html>

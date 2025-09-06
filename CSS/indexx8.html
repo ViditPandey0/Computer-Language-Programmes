@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        .box1{
+            width: 200px;
+            height: 100px;
+            background-color: lightblue;
+            border: 5px solid blue;
+            text-align: center;
+            margin: auto;  
+            padding:20px 10px 20px 10px;
+            box-sizing:content-box;
+        }<!-- Centers the box horizontally --->
+        box{
+            display:inline-block;
+        }
+        .box2{
+            border:2px solid black;
+            height:300PX;
+            width:300PX;
+            background-color:red;
+            text-align: center;
+            margin: auto;  
+            padding:20px 10px 20px 10px;
+            box-sizing:content-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        This box demonstrates the CSS Box Model.
+    </div>
+    <div class="box2">
+        This box demonstrates the 2nd CSS Box Model.
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Property</title>
+    <style>
+        .container{
+            height:800px;
+            border:2px solid black;
+        }
+        img{
+            width:150px;
+            height:150px;
+        }
+        #first{
+            position:static;
+            top:50px;
+        }#second{
+            position:relative;
+            top:50px;
+        }#third{
+            position:absolute;
+            top:150px;
+        }#fourth{
+            position:fixed;
+            top:250px;
+            left:600px;
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <img src="img1.webp" alt="first" id="first">
+        <img src="img2.webp" alt="second" id="second">
+        <img src="img3.webp" alt="third" id="third">
+        <img src="img4.webp" alt="fourth" id="fourth">
+        <img src="img5.webp" alt="fifth" id="fifth">
+    </div>
+</body>
+</html>

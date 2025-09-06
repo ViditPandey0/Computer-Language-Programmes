@@ -1,0 +1,6 @@
+n1=int(input("Enter first number : "))
+n2=int(input("Enter second number : "))
+n3=int(input("Enter third number : "))
+max1=max(n1,n2)
+max2=max(max1,n3)
+print("The greatest of three numbers is ",max2)

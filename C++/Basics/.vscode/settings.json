@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "FibonacciiSeriesusingWhileLoop.C": "cpp",
+        "MaxSizeHelicopter.C": "cpp",
+        "IsStrLwrUprSpecialChar.C": "cpp",
+        "1D_array_rotation.C": "cpp"
+    }
+}

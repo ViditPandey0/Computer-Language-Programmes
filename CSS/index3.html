@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        *{
+            margin:0px;
+        }
+        h1{
+            color:yellow 
+            
+            font-size:large;
+            
+        }
+        h1,h2{
+            color:blue;
+            font-size:xx-large;
+        }
+        #first{
+            color:red;
+        }  
+        .container{
+            color:green;
+        }  <!--Class selector has more priority than the tag selector but less than ID selector.-->
+    </style>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h1 style="color:red;font-size:xx-large">CSS Text</h1><!--Example of inline CSS.-->
+    <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo obcaecati sit odio dignissimos praesentium. At quam error provident explicabo repellendus.</p>
+    <div class="container">
+        lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+    </div>
+</body>
+</html>
